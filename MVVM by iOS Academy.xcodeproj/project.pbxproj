@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		DF7C69CE27C01D2C00A5F5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69CD27C01D2C00A5F5AC /* AppDelegate.swift */; };
 		DF7C69D027C01D2C00A5F5AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69CF27C01D2C00A5F5AC /* SceneDelegate.swift */; };
-		DF7C69D227C01D2C00A5F5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69D127C01D2C00A5F5AC /* ViewController.swift */; };
-		DF7C69D527C01D2C00A5F5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7C69D327C01D2C00A5F5AC /* Main.storyboard */; };
 		DF7C69D727C01D2C00A5F5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C69D627C01D2C00A5F5AC /* Assets.xcassets */; };
 		DF7C69DA27C01D2C00A5F5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7C69D827C01D2C00A5F5AC /* LaunchScreen.storyboard */; };
+		DF7C69E627C01E3C00A5F5AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69E427C01E3C00A5F5AC /* HomeViewController.swift */; };
+		DF7C69E727C01E3C00A5F5AC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7C69E527C01E3C00A5F5AC /* HomeViewController.xib */; };
+		DF7C69E927C01E4C00A5F5AC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69E827C01E4C00A5F5AC /* HomeViewModel.swift */; };
+		DF7C69EC27C0203700A5F5AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69EB27C0203700A5F5AC /* NetworkManager.swift */; };
+		DF7C69EE27C0219000A5F5AC /* ShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69ED27C0219000A5F5AC /* ShareModel.swift */; };
+		DF7C69F127C0390E00A5F5AC /* HomeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69F027C0390E00A5F5AC /* HomeCellViewModel.swift */; };
+		DF7C69F527C0499F00A5F5AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69F327C0499F00A5F5AC /* DetailViewController.swift */; };
+		DF7C69F627C0499F00A5F5AC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7C69F427C0499F00A5F5AC /* DetailViewController.xib */; };
+		DF7C69F827C04B0900A5F5AC /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69F727C04B0900A5F5AC /* DetailViewModel.swift */; };
+		DF7C69FA27C05A1A00A5F5AC /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C69F927C05A1A00A5F5AC /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF7C69CA27C01D2C00A5F5AC /* MVVM by iOS Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM by iOS Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7C69CD27C01D2C00A5F5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF7C69CF27C01D2C00A5F5AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF7C69D127C01D2C00A5F5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF7C69D427C01D2C00A5F5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF7C69D627C01D2C00A5F5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7C69D927C01D2C00A5F5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF7C69DB27C01D2D00A5F5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7C69E427C01E3C00A5F5AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF7C69E527C01E3C00A5F5AC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DF7C69E827C01E4C00A5F5AC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DF7C69EB27C0203700A5F5AC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DF7C69ED27C0219000A5F5AC /* ShareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModel.swift; sourceTree = "<group>"; };
+		DF7C69F027C0390E00A5F5AC /* HomeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewModel.swift; sourceTree = "<group>"; };
+		DF7C69F327C0499F00A5F5AC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DF7C69F427C0499F00A5F5AC /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		DF7C69F727C04B0900A5F5AC /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		DF7C69F927C05A1A00A5F5AC /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		DF7C69CC27C01D2C00A5F5AC /* MVVM by iOS Academy */ = {
 			isa = PBXGroup;
 			children = (
-				DF7C69CD27C01D2C00A5F5AC /* AppDelegate.swift */,
-				DF7C69CF27C01D2C00A5F5AC /* SceneDelegate.swift */,
-				DF7C69D127C01D2C00A5F5AC /* ViewController.swift */,
-				DF7C69D327C01D2C00A5F5AC /* Main.storyboard */,
-				DF7C69D627C01D2C00A5F5AC /* Assets.xcassets */,
-				DF7C69D827C01D2C00A5F5AC /* LaunchScreen.storyboard */,
-				DF7C69DB27C01D2D00A5F5AC /* Info.plist */,
+				DF7C69E127C01D3200A5F5AC /* Application */,
+				DF7C69EA27C0201400A5F5AC /* Managers */,
+				DF7C69E327C01D6F00A5F5AC /* Home Module */,
+				DF7C69F227C046C000A5F5AC /* Detail Module */,
+				DF7C69E227C01D4100A5F5AC /* Resources */,
+				DF7C69F927C05A1A00A5F5AC /* Box.swift */,
 			);
 			path = "MVVM by iOS Academy";
+			sourceTree = "<group>";
+		};
+		DF7C69E127C01D3200A5F5AC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69CD27C01D2C00A5F5AC /* AppDelegate.swift */,
+				DF7C69CF27C01D2C00A5F5AC /* SceneDelegate.swift */,
+				DF7C69D827C01D2C00A5F5AC /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DF7C69E227C01D4100A5F5AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69D627C01D2C00A5F5AC /* Assets.xcassets */,
+				DF7C69DB27C01D2D00A5F5AC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF7C69E327C01D6F00A5F5AC /* Home Module */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69EF27C0390400A5F5AC /* cell */,
+				DF7C69E427C01E3C00A5F5AC /* HomeViewController.swift */,
+				DF7C69E527C01E3C00A5F5AC /* HomeViewController.xib */,
+				DF7C69E827C01E4C00A5F5AC /* HomeViewModel.swift */,
+				DF7C69ED27C0219000A5F5AC /* ShareModel.swift */,
+			);
+			path = "Home Module";
+			sourceTree = "<group>";
+		};
+		DF7C69EA27C0201400A5F5AC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69EB27C0203700A5F5AC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DF7C69EF27C0390400A5F5AC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69F027C0390E00A5F5AC /* HomeCellViewModel.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DF7C69F227C046C000A5F5AC /* Detail Module */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C69F727C04B0900A5F5AC /* DetailViewModel.swift */,
+				DF7C69F327C0499F00A5F5AC /* DetailViewController.swift */,
+				DF7C69F427C0499F00A5F5AC /* DetailViewController.xib */,
+			);
+			path = "Detail Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +199,8 @@
 			files = (
 				DF7C69DA27C01D2C00A5F5AC /* LaunchScreen.storyboard in Resources */,
 				DF7C69D727C01D2C00A5F5AC /* Assets.xcassets in Resources */,
-				DF7C69D527C01D2C00A5F5AC /* Main.storyboard in Resources */,
+				DF7C69E727C01E3C00A5F5AC /* HomeViewController.xib in Resources */,
+				DF7C69F627C0499F00A5F5AC /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7C69D227C01D2C00A5F5AC /* ViewController.swift in Sources */,
+				DF7C69F127C0390E00A5F5AC /* HomeCellViewModel.swift in Sources */,
 				DF7C69CE27C01D2C00A5F5AC /* AppDelegate.swift in Sources */,
+				DF7C69EE27C0219000A5F5AC /* ShareModel.swift in Sources */,
 				DF7C69D027C01D2C00A5F5AC /* SceneDelegate.swift in Sources */,
+				DF7C69F827C04B0900A5F5AC /* DetailViewModel.swift in Sources */,
+				DF7C69EC27C0203700A5F5AC /* NetworkManager.swift in Sources */,
+				DF7C69E627C01E3C00A5F5AC /* HomeViewController.swift in Sources */,
+				DF7C69E927C01E4C00A5F5AC /* HomeViewModel.swift in Sources */,
+				DF7C69F527C0499F00A5F5AC /* DetailViewController.swift in Sources */,
+				DF7C69FA27C05A1A00A5F5AC /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF7C69D327C01D2C00A5F5AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF7C69D427C01D2C00A5F5AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF7C69D827C01D2C00A5F5AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +363,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z783FFF863;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM by iOS Academy/Info.plist";
+				INFOPLIST_FILE = "MVVM by iOS Academy/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +377,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +390,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z783FFF863;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM by iOS Academy/Info.plist";
+				INFOPLIST_FILE = "MVVM by iOS Academy/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
